@@ -1,6 +1,6 @@
 # Gym-Website
 
-![image of sumit local gym](./images/laptop.png)
+![image of sumit local gym](./images/laptop.png?raw=true)
 
 A local gym website made with pure html and css.
 
