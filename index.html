@@ -26,5 +26,31 @@
         <button class="btn">EMAIL US</button>
       </div>
     </nav>
+    <div class="form">
+      <h2>Join the best gym in your area!</h2>
+      <hr>
+      <form action="backed.php">
+        <div class="name">
+          <label class="name" for="name">Your Name : </label>
+          <input id="name" placeholder="type your full name here" type="text" />
+        </div>
+        <div class="mobile-no">
+          <label class="mobile-no" for="mobile-no">Your Mobile No : </label>
+          <input type="tel" name="mobile-no" id="mobile-no">
+        </div>
+        <div class="email">
+          <label class="email" for="email">Your Email Adresss : </label>
+          <input type="email" name="email" id="email">
+        </div>
+      </form>
+      <div class="email">
+        <label class="gender" for="gender">Your Gender : </label>
+        Male<input type="radio" name="gender" id="">
+        Female<input type="radio" name="gender" id="">
+      </div>
+      <button class="submit"type="submit">SUBMIT NOW</button>
+      <button class="reset" type="reset">RESET ALL</button>
+    </form>
+    </div>
   </body>
 </html>

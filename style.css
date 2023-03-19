@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 * {
   margin: 0;
   padding: 0;
   color: white;
   box-sizing: border-box;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 body {
   background-image: url(/images/background.png);
@@ -68,16 +68,64 @@ a:hover {
 }
 button.btn {
   margin: 3.5rem 1rem;
-  background-color: rgba(102, 100, 100, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
   width: 6rem;
   height: 2.5rem;
   border-radius: 20px;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 14px;
   font-weight: bold;
   border-color: black;
+  font-weight: bold;
 }
 button:hover {
   background-color: rgb(229, 255, 0);
   box-shadow: 2px 2px 10px black;
+}
+div.form {
+  border: 2px solid white;
+  width: 50%;
+  height: 29rem;
+  border-radius: 20px;
+  /* border-style: dashed; */
+  border-spacing: 100px;
+  margin: 40px 86px;
+  padding: 32px 40px;
+}
+#name,
+#mobile-no,
+#email {
+  height: 30px;
+  background: 100%;
+  border: white solid 2px;
+  border-radius: 10px;
+  color: white;
+  padding-left: 20px;
+}
+.name,
+.mobile-no,
+.email {
+  font-size: 23px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+hr {
+  margin-top: 20px;
+}
+.submit,
+.reset {
+  color: black;
+  width: 150px;
+  height: 2rem;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-right: 2rem;
+  padding: 4px 20px;
+  background-color: aqua;
+  border-radius: 20px;
+  border-color: aqua;
+}
+button.submit {
+  width: fit-content;
 }
