@@ -9,7 +9,7 @@
 body {
   background-image: url(/images/background.png);
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: -150px;
   background-size: cover;
 }
 nav.container {
@@ -123,4 +123,17 @@ hr {
 }
 button.submit {
   width: fit-content;
+}
+.footer {
+  padding: 1rem 0;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.7);
+  height: 3rem;
+  border-top: 2px solid white;
+}
+.footer p {
+  color: rgb(255, 255, 255);
+}
+p span {
+  color: red;
 }
