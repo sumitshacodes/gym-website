@@ -1,6 +1,7 @@
 # Gym-Website
 
 ![image of sumit local gym](./images/laptop.png)
+
 A local gym website made with pure html and css.
 
 ## What's the website?
